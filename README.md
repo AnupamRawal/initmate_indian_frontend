@@ -1,2 +1,2 @@
 # initmate_indian_frontend
-Intimate Indian Blog Site
+A blog site created with nextJs@14
