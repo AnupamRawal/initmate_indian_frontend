@@ -39,6 +39,16 @@ const nextConfig = {
     "rc-upload",
     "rc-util",
   ],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'theintimateindian.in',
+        port: '',
+        pathname: '/wp-content/**',
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig

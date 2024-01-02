@@ -29,10 +29,9 @@ const Heading = () => {
             />
           </Flex>
         </Col>
-        <Col md={6} sm={12} xs={24} style={{ textAlign: "center" }}>
+        <Col md={6} sm={24} xs={24} style={{ textAlign: "center" }}>
           <Flex justify="center">
             <AutoComplete
-              style={{ width: 200 }}
               options={options}
               filterOption={(inputValue, option) =>
                 option!.value
